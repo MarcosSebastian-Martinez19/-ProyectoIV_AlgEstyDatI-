@@ -6,14 +6,12 @@ void imprimir_entero(char n, int x);
 int intercambio(int x, int y);
 
 int main(void) {
-    const X = pedir_entero('x');
-    const Y = pedir_entero('y');
-    int x = X;
-    int y = Y;
-    imprimir_entero('x', x);
-    imprimir_entero('y', x);
-    int resultado1 = intercambio(x,y);
-    int resultado2 = intercambio(y,x);
+    int x, y, z;
+    x = pedir_entero('x');
+    y = pedir_entero('y');
+    z = x;
+    x = y;
+    y = z;
     imprimir_entero('x', x);
     imprimir_entero('y', y);
     return 0;
