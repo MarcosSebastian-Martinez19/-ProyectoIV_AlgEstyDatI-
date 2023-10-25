@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <limits.h>
 
 int pedir_entero(char n) {
     int x;
@@ -22,7 +23,7 @@ int menor(int x, int y) {
 
 int minimo_pares(int tam, int a[]) {
     int i = 0;
-    int minimo_par = 1000;
+    int minimo_par = INT_MAX;
     while(i < tam) {
         if(menor(minimo_par, a[i]) % 2 == 0) {
             minimo_par = menor(minimo_par, a[i]);
@@ -34,7 +35,7 @@ int minimo_pares(int tam, int a[]) {
 
 int minimo_impares(int tam, int a[]) {
     int i = 0;
-    int minimo_impar = 1000;
+    int minimo_impar = INT_MAX;
     while(i < tam) {
         if(menor(minimo_impar, a[i]) % 2 != 0) {
             minimo_impar = menor(minimo_impar, a[i]);

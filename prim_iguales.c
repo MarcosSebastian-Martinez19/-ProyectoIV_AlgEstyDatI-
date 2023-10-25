@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+
 int pedir_entero(char n) {
     int x;
     printf("Ingrese un valor que se almacenará en la variable %c \n", n);
@@ -41,11 +42,15 @@ int prim_iguales(int tam, int a[]) {
     return tramo;
 }
 
+// Punto b. Mostrar por pantalla el mayor tramo inicial del arreglo a[] que tiene a todos sus elementos iguales.
+
 int main(void) {
     int x = pedir_entero('x');
     int a[x];
     pedir_arreglo(x, a);
     int tramo = prim_iguales(x, a);
-    printf("La cantidad de primeros elementos iguales es: %d", tramo);
+    printf("La cantidad de primeros elementos iguales es: %d\n", tramo);
+    // Punto b.
+    imprimir_arreglo(tramo, a);
     return 0;
 }
