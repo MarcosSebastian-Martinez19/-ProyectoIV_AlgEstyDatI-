@@ -17,7 +17,7 @@ void pedir_arreglo(int n_max, int a[]) {
 }
 
 int menor(int x, int y) {
-    int menor = (x<= y) ? x : y;
+    int menor = (x <= y) ? x : y;
     return menor;
 }
 
@@ -62,7 +62,10 @@ int main(void) {
     imprimir_arreglo(x, arreglo);
     int minimo_par = minimo_pares(x, arreglo);
     int minimo_impar = minimo_impares(x, arreglo);
+    int minimo_elemento = menor(minimo_impar, minimo_par);
     printf("El mínimo número par del arreglo es: %d\n", minimo_par);
     printf("El mínimo número impar del arreglo es: %d\n", minimo_impar);
+    printf("El elemento minimo del arreglo es: %d \n", minimo_elemento);
+
     return 0;
 }

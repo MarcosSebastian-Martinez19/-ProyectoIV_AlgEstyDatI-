@@ -14,7 +14,6 @@ int sumatoria(int tam, int a[]) {
         suma_total = suma_total + a[i];
         i = i + 1;
     }
-
     return suma_total;
 }
 
@@ -28,6 +27,5 @@ int main(void) {
     }
     int suma = sumatoria(x, array);
     printf("La suma total de los elementos del array es: %d \n", suma);
-    
     return 0;
 }

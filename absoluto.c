@@ -6,11 +6,11 @@ void imprimir_entero(char n, int x);
 int valor_absoluto(int x);
 
 int main(void) {
-    int abs;
+    int absoluto;
     int x = pedir_entero('x');
-    abs = valor_absoluto(x);
-    assert(abs>0 && abs >=x && (abs == x || abs == (-1)*x));
-    imprimir_entero('x', abs);
+    absoluto = valor_absoluto(x);
+    assert(absoluto > 0 && absoluto >= x && (absoluto == x || absoluto == (-1) * x));
+    imprimir_entero('x', absoluto);
     return 0;
 }
 

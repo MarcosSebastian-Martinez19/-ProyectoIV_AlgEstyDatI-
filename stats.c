@@ -54,6 +54,6 @@ int main(void) {
     float a[5];
     pedir_arreglo(5, a);
     struct datos_t x = stats(5, a);
-    printf("minimo :%f maximo: %f promedio: %f", x.minimo, x.maximo, x.promedio);
+    printf("minimo: %f maximo: %f promedio: %f", x.minimo, x.maximo, x.promedio);
     return 0;
 }

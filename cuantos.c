@@ -48,6 +48,6 @@ int main(void) {
     int a[5];
     pedir_arreglo(5, a);
     struct comp_t x = cuantos(5, a, 4);
-    printf("menores :%d mayores: %d iguales: %d", x.menores, x.mayores, x.iguales);
+    printf("menores: %d mayores: %d iguales: %d", x.menores, x.mayores, x.iguales);
     return 0;
 }

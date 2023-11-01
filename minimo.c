@@ -5,9 +5,11 @@ int pedir_entero(char n);
 int calcular_minimo(int x, int y);
 
 int main(void) {
+    int minimo;
     int x = pedir_entero('x');
     int y = pedir_entero('y');
-    int minimo = calcular_minimo(x, y);
+    minimo = calcular_minimo(x, y);
+    assert(minimo <= x && minimo <= y && (minimo ==x || minimo == y));
     printf("El valor minimo entre %c e %c es: %d", 'x', 'y', minimo);
     return 0;
 }

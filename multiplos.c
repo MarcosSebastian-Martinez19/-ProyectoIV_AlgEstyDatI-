@@ -36,19 +36,22 @@ bool existe_multiplo(int m, int tam, int a[]) {
     return multiplo;
 }
 
+void imprimir_desicion(int x, int a[]) {
+    if(x == 1) {
+        printf("%s \n", (todos_pares(x, a)) ? "True" : "False");
+    } else {
+        int m = pedir_entero('m');
+        printf("%s", (existe_multiplo(m, x, a)) ? "True" : "False");
+    }
+}
+
 int main(void) {
     int desicion;
-    int m;
     int x =pedir_entero('x');
     int array[x];
     pedir_arreglo(x, array);
     printf("Elija que quiere ejecutar: 1. Todos Pares, 2. Existe Múltiplo \n");
     scanf("%d", &desicion);
-    if(desicion == 1) {
-        printf("%d \n", todos_pares(x, array));
-    } else {
-        m = pedir_entero('m');
-        printf("%d", existe_multiplo(m, x, array));
-    }
+    imprimir_desicion(desicion, array);
     return 0;
 }
