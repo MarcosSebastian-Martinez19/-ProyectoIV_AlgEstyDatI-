@@ -13,13 +13,12 @@ struct comp_t cuantos(int tam, int a[], int elem) {
     int mayores = 0;
     int i = 0;
     while(i < tam) {
-        if(a[i] == elem) {
-            iguales = iguales + 1;
-        } else if (a[i] < elem)
-        {
+        if(a[i] > elem) {
+            mayores = mayores + 1;
+        } else if (a[i] < elem) {
             menores = menores + 1;
         } else {
-            mayores = mayores + 1;
+            iguales = iguales + 1;
         }
         i = i + 1;
     }
@@ -48,6 +47,21 @@ int main(void) {
     int a[5];
     pedir_arreglo(5, a);
     struct comp_t x = cuantos(5, a, 4);
-    printf("menores: %d mayores: %d iguales: %d", x.menores, x.mayores, x.iguales);
+    printf("menores que 4: %d mayores que 4: %d iguales que 4: %d", x.menores, x.mayores, x.iguales);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable a 
+    2
+    Ingrese un valor que se almacenará en la variable a 
+    4
+    Ingrese un valor que se almacenará en la variable a 
+    3
+    Ingrese un valor que se almacenará en la variable a 
+    56
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    menores que 4: 2 mayores que 4: 2 iguales que 4: 1
+*/

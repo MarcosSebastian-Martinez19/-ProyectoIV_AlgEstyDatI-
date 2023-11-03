@@ -57,3 +57,18 @@ int main(void) {
     printf("minimo: %f maximo: %f promedio: %f", x.minimo, x.maximo, x.promedio);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable a 
+    1.6
+    Ingrese un valor que se almacenará en la variable a 
+    56.7 
+    Ingrese un valor que se almacenará en la variable a 
+    23.4
+    Ingrese un valor que se almacenará en la variable a 
+    25.3
+    Ingrese un valor que se almacenará en la variable a 
+    12.5
+    minimo: 1.600000 maximo: 56.700001 promedio: 23.900000%
+*/

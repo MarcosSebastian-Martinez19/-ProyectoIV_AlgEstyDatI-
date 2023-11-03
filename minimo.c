@@ -27,3 +27,12 @@ int calcular_minimo(int x, int y) {
     assert(minimo <= y);
     return minimo;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable y 
+    15
+    El valor minimo entre x e y es: 5
+*/

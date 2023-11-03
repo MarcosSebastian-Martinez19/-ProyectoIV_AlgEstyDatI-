@@ -23,3 +23,14 @@ int main(void) {
     printf("El valor de x es: %d, el valor de y es: %d, y el valor de z es: %d", x, y, z);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable X 
+    3
+    Ingrese un valor que se almacenará en la variable Y 
+    7
+    Ingrese un valor que se almacenará en la variable Z 
+    2
+    El valor de x es: 7, el valor de y es: 12, y el valor de z es: 10
+*/

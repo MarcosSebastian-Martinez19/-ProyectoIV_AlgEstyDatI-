@@ -29,3 +29,20 @@ int main(void) {
     printf("La suma total de los elementos del array es: %d \n", suma);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    Ingrese un valor que se almacenará en la variable a 
+    1
+    Ingrese un valor que se almacenará en la variable a 
+    45
+    Ingrese un valor que se almacenará en la variable a 
+    2
+    Ingrese un valor que se almacenará en la variable a 
+    34
+    La suma total de los elementos del array es: 105
+*/

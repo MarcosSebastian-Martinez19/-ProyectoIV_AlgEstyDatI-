@@ -25,3 +25,14 @@ void hola_hasta(int n) {
         i = i + 1;
     }
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable n 
+    5
+    Hola
+    Hola
+    Hola
+    Hola
+    Hola
+*/

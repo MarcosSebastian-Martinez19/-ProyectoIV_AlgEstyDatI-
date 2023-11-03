@@ -20,3 +20,12 @@ int main(void) {
     printf("El valor de x es: %d, y el valor de y es: %d", x, y);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable X 
+    2
+    Ingrese un valor que se almacenará en la variable Y 
+    5
+    El valor de x es: 3, y el valor de y es: 7
+*/

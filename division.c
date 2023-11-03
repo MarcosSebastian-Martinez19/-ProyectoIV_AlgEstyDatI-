@@ -40,10 +40,18 @@ int main(void) {
 /*
     Prueba:
 
+    -- Ejecución 1:
     Ingrese un valor que se almacenará en la variable x 
     10
     Ingrese un valor que se almacenará en la variable y 
     4
     Cociente: 2
     Resto: 2
+    -- Ejecución 2:
+    Ingrese un valor que se almacenará en la variable x 
+    3
+    Ingrese un valor que se almacenará en la variable y 
+    2
+    Cociente: 1
+    Resto: 1
 */

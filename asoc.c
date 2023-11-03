@@ -63,3 +63,30 @@ int main(void) {
     verificar(x, a, clave_buscada);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese la clave 1: 
+    a
+    Ingrese el valor 1: 
+    1
+    Ingrese la clave 2: 
+    b
+    Ingrese el valor 2: 
+    2
+    Ingrese la clave 3: 
+    c
+    Ingrese el valor 3: 
+    3
+    Ingrese la clave 4: 
+    d
+    Ingrese el valor 4: 
+    4
+    Ingrese la clave 5: 
+    e
+    Ingrese el valor 5: 
+    6
+    Ingrese la clave a buscar: 
+    b
+    La clave b se encuentra en el arreglo de asociaciones.
+*/

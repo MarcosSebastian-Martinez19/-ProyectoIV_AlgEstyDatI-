@@ -69,3 +69,23 @@ int main(void) {
 
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    Ingrese un valor que se almacenará en la variable a 
+    12
+    Ingrese un valor que se almacenará en la variable a 
+    45
+    Ingrese un valor que se almacenará en la variable a 
+    3
+    Ingrese un valor que se almacenará en la variable a 
+    4
+    El arreglo es: [ 23 12 45 3 4 ]
+    El mínimo número par del arreglo es: 4
+    El mínimo número impar del arreglo es: 3
+    El elemento minimo del arreglo es: 3
+*/

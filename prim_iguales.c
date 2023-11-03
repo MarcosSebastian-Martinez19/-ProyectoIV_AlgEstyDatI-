@@ -54,3 +54,21 @@ int main(void) {
     imprimir_arreglo(tramo, a);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    Ingrese un valor que se almacenará en la variable a 
+    4
+    Ingrese un valor que se almacenará en la variable a 
+    32
+    Ingrese un valor que se almacenará en la variable a 
+    1
+    La cantidad de primeros elementos iguales es: 2
+    El arreglo es: [ 23 23 ]
+*/

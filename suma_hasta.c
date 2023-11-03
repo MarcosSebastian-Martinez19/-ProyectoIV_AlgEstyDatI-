@@ -32,3 +32,10 @@ int suma_hasta(int n) {
     }
     return suma_total;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable n 
+    6
+    La suma total es: 15
+*/

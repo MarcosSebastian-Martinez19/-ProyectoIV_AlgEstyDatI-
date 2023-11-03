@@ -32,3 +32,15 @@ int pedir_vocal(char n) {
     scanf("%c", &x);
     return x;
 }
+
+/*
+    Prueba:
+    -- Ejecución 1:
+    Ingrese un valor que se almacenará en la variable n 
+    t
+    La letra ingresada no es vocal.
+    -- Ejecución 2:
+    Ingrese un valor que se almacenará en la variable n 
+    a
+    La letra ingresada es vocal.
+*/

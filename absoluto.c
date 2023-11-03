@@ -30,3 +30,15 @@ int valor_absoluto(int x) {
     z = (x>=0) ? x : (-1 * x);
     return z;
 }
+
+/*
+    Prueba:
+    -- Ejecución 1:
+    Ingrese un valor que se almacenará en la variable x 
+    -90 
+    El valor absoluto de x es: 90
+    -- Ejecución 2:
+    Ingrese un valor que se almacenará en la variable x 
+    56
+    El valor absoluto de x es: 56 
+*/

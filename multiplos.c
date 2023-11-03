@@ -55,3 +55,41 @@ int main(void) {
     imprimir_desicion(desicion, array);
     return 0;
 }
+
+/*
+    Prueba:
+    -- Ejecución 1:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    12
+    Ingrese un valor que se almacenará en la variable a 
+    44
+    Ingrese un valor que se almacenará en la variable a 
+    32
+    Ingrese un valor que se almacenará en la variable a 
+    86
+    Ingrese un valor que se almacenará en la variable a 
+    90
+    Elija que quiere ejecutar: 1. Todos Pares, 2. Existe Múltiplo 
+    1
+    True
+    -- Ejecución 2:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    12
+    Ingrese un valor que se almacenará en la variable a 
+    3
+    Ingrese un valor que se almacenará en la variable a 
+    4
+    Ingrese un valor que se almacenará en la variable a 
+    54
+    Ingrese un valor que se almacenará en la variable a 
+    23
+    Elija que quiere ejecutar: 1. Todos Pares, 2. Existe Múltiplo 
+    2
+    Ingrese un valor que se almacenará en la variable m 
+    3
+    True
+*/

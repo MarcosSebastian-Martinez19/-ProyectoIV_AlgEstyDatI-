@@ -46,3 +46,23 @@ int main(void) {
     imprimir_arreglo(x, arreglo);
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    4
+    Ingrese un valor que se almacenará en la variable a 
+    12
+    Ingrese un valor que se almacenará en la variable a 
+    34
+    Ingrese un valor que se almacenará en la variable a 
+    53
+    Ingrese un valor que se almacenará en la variable a 
+    1
+    El arreglo es: [ 12 34 53 1 ]
+    Ingrese un valor que se almacenará en la variable i 
+    1
+    Ingrese un valor que se almacenará en la variable j 
+    3
+    El arreglo es: [ 12 1 53 34 ]
+*/

@@ -33,3 +33,20 @@ int main(void) {
 
     return 0;
 }
+
+/*
+    Prueba:
+    Ingrese un valor que se almacenará en la variable x 
+    5
+    Ingrese un valor que se almacenará en la variable a 
+    1
+    Ingrese un valor que se almacenará en la variable a 
+    2
+    Ingrese un valor que se almacenará en la variable a 
+    3
+    Ingrese un valor que se almacenará en la variable a 
+    4
+    Ingrese un valor que se almacenará en la variable a 
+    5
+    El arreglo es: [ 1 2 3 4 5 ]
+*/
