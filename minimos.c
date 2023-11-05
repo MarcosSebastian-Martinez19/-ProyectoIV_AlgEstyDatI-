@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#define N 5
 
 int pedir_entero(char n) {
     int x;
@@ -56,12 +57,11 @@ void imprimir_arreglo(int n_max, int a[]) {
 }
 
 int main(void) {
-    int x = pedir_entero('x');
-    int arreglo[x];
-    pedir_arreglo(x, arreglo);
-    imprimir_arreglo(x, arreglo);
-    int minimo_par = minimo_pares(x, arreglo);
-    int minimo_impar = minimo_impares(x, arreglo);
+    int arreglo[N];
+    pedir_arreglo(N, arreglo);
+    imprimir_arreglo(N, arreglo);
+    int minimo_par = minimo_pares(N, arreglo);
+    int minimo_impar = minimo_impares(N, arreglo);
     int minimo_elemento = menor(minimo_impar, minimo_par);
     printf("El mínimo número par del arreglo es: %d\n", minimo_par);
     printf("El mínimo número impar del arreglo es: %d\n", minimo_impar);
@@ -72,8 +72,6 @@ int main(void) {
 
 /*
     Prueba:
-    Ingrese un valor que se almacenará en la variable x 
-    5
     Ingrese un valor que se almacenará en la variable a 
     23
     Ingrese un valor que se almacenará en la variable a 

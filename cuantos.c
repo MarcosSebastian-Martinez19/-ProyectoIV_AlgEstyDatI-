@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define N 5
 
 struct comp_t {
     int menores;
@@ -44,9 +45,9 @@ void pedir_arreglo(int n_max, int a[]) {
 }
 
 int main(void) {
-    int a[5];
-    pedir_arreglo(5, a);
-    struct comp_t x = cuantos(5, a, 4);
+    int a[N];
+    pedir_arreglo(N, a);
+    struct comp_t x = cuantos(N, a, 4);
     printf("menores que 4: %d mayores que 4: %d iguales que 4: %d", x.menores, x.mayores, x.iguales);
     return 0;
 }

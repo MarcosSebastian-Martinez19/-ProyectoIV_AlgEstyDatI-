@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <limits.h>
+#define N 5
 
 float menor(float x, float y) {
     float menor = (x < y) ? x : y;
@@ -51,9 +52,9 @@ void pedir_arreglo(int n_max, float a[]) {
 }
 
 int main(void) {
-    float a[5];
-    pedir_arreglo(5, a);
-    struct datos_t x = stats(5, a);
+    float a[N];
+    pedir_arreglo(N, a);
+    struct datos_t x = stats(N, a);
     printf("minimo: %f maximo: %f promedio: %f", x.minimo, x.maximo, x.promedio);
     return 0;
 }

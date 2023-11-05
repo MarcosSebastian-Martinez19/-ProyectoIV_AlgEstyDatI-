@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#define N 5
 
 typedef char clave_t;
 typedef int valor_t;
@@ -52,15 +53,14 @@ void verificar(int n, struct asoc a[], clave_t clave) {
 }
 
 int main(void) {
-    int x = 5;
-    struct asoc a[x];
+    struct asoc a[N];
 
-    pedir_arreglo_asociaciones(x, a);
+    pedir_arreglo_asociaciones(N, a);
 
     clave_t clave_buscada;
     printf("Ingrese la clave a buscar: \n");
     scanf(" %c", &clave_buscada);
-    verificar(x, a, clave_buscada);
+    verificar(N, a, clave_buscada);
     return 0;
 }
 

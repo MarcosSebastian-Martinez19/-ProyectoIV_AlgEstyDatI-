@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdbool.h>
+#define N 5
 
 int pedir_entero(char n) {
     int x;
@@ -47,9 +48,8 @@ void imprimir_desicion(int x, int a[]) {
 
 int main(void) {
     int desicion;
-    int x =pedir_entero('x');
-    int array[x];
-    pedir_arreglo(x, array);
+    int array[N];
+    pedir_arreglo(N, array);
     printf("Elija que quiere ejecutar: 1. Todos Pares, 2. Existe Múltiplo \n");
     scanf("%d", &desicion);
     imprimir_desicion(desicion, array);
@@ -59,8 +59,6 @@ int main(void) {
 /*
     Prueba:
     -- Ejecución 1:
-    Ingrese un valor que se almacenará en la variable x 
-    5
     Ingrese un valor que se almacenará en la variable a 
     12
     Ingrese un valor que se almacenará en la variable a 
@@ -75,8 +73,6 @@ int main(void) {
     1
     True
     -- Ejecución 2:
-    Ingrese un valor que se almacenará en la variable x 
-    5
     Ingrese un valor que se almacenará en la variable a 
     12
     Ingrese un valor que se almacenará en la variable a 

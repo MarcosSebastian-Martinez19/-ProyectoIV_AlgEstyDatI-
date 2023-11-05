@@ -1,4 +1,5 @@
 #include <stdio.h>
+#define N 5
 
 int pedir_entero(char n) {
     int x;
@@ -26,18 +27,15 @@ void imprimir_arreglo(int n_max, int a[]) {
 }
 
 int main(void) {
-    int x = pedir_entero('x');
-    int arreglo[x];
-    pedir_arreglo(x, arreglo);
-    imprimir_arreglo(x, arreglo);
+    int arreglo[N];
+    pedir_arreglo(N, arreglo);
+    imprimir_arreglo(N, arreglo);
 
     return 0;
 }
 
 /*
     Prueba:
-    Ingrese un valor que se almacenará en la variable x 
-    5
     Ingrese un valor que se almacenará en la variable a 
     1
     Ingrese un valor que se almacenará en la variable a 
